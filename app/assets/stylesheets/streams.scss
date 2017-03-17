@@ -1,0 +1,54 @@
+// Place all the styles related to the streams controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#publisher{
+  position: absolute;
+  right: 18%;  
+  z-index: 999;
+  margin-top: 40px;
+}
+#stream{
+  margin-left: auto;
+  margin-right: auto;
+}
+#both-video{
+  
+}
+#textchat {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 20%;
+    float: right;
+    right: 0;
+    height: 30%;
+    background-color: #333;
+}
+#history {
+  width: 100%;
+  height: calc(100% - 40px);
+  overflow: auto;
+}
+input#msgTxt {
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+#history .mine {
+  color: #00FF00;
+  text-align: right;
+  margin-right: 10px;
+}
+#history .theirs {
+  color: #00FFFF;
+  margin-left: 10px;
+}
+.top-header{
+  width: 100%;
+  background-color: #a3a3a3;
+  height: 120px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}

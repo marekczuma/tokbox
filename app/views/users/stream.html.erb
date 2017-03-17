@@ -1,0 +1,20 @@
+<%= javascript_include_tag "//static.opentok.com/webrtc/v2.2/js/TB.min.js" %>
+<div class="top-header">
+  <h1>Your stream</h1>
+
+  <!-- Link to your stream: <%= link_to watch_url(@stream.user.id), watch_url(@stream.user.id) %> -->
+  <h1><%= @stream.user.email %>'s stream</h1>
+</div>
+<div id="both-video">
+  <div id="publisher"></div>
+  <div id="stream"></div>
+</div>
+
+<div id="textchat">
+  <p id="history"></p>
+  <form>
+    <input type="text" placeholder="Input your text here" id="msgTxt"></input>
+  </form>
+</div>
+<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
